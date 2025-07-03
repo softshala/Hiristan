@@ -1,0 +1,103 @@
+.service-hire-section {
+  padding: 0 4rem 4rem;
+  background-color: #ffffff;
+}
+
+.service-hire-container {
+  margin: 0 auto;
+}
+
+.service-hire-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 9rem;
+}
+
+.service-hire-heading {
+  font-size: 2.5rem;
+  flex: 1;
+  margin: 0;
+  min-width: 280px;
+}
+
+.service-hire-heading span {
+  color: #008c6a;
+}
+
+.service-hire-subtext {
+  max-width: 400px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.service-hire-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 2rem;
+}
+
+.service-hire-card {
+  background-color: #f9f9f9;
+  border-left: 5px solid #008c6a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.service-hire-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #008c6a;
+  transition: width 0.3s ease;
+  z-index: 0;
+}
+
+.service-hire-card:hover::before {
+  width: 100%;
+}
+
+.service-hire-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.service-hire-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.service-hire-number {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #008c6a;
+  margin-bottom: 0.5rem;
+}
+
+.service-hire-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.service-hire-description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.service-hire-card:hover .service-hire-title,
+.service-hire-card:hover .service-hire-description,
+.service-hire-card:hover .service-hire-number {
+  color: #ffffff;
+}

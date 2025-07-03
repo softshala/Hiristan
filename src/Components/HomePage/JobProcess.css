@@ -1,0 +1,404 @@
+.job-process {
+  background-color: #ffffff;
+  color: var(--secondary-color);
+  padding: 3rem 4rem;
+  text-align: center;
+  position: relative;
+}
+
+.job-process-header {
+  margin-bottom: 40px;
+}
+
+.job-process-title-head {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.job-process-content {
+ margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.job-process-left {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+}
+
+.job-process-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.job-process-item {
+  display: flex;
+  align-items: flex-start;
+  
+  padding: 20px 0 30px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden; 
+  transition: height 0.5s ease; 
+}
+
+.job-process-number {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  min-width: 40px;
+}
+
+.job-process-text-container {
+  flex: 1;
+  text-align: left;
+  position: relative;
+}
+
+.job-process-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: inline;
+}
+
+.job-process-description {
+  display: block;
+  font-size: 14px;
+  color: var(--tertiary-color);
+  margin-top: 15px;
+  line-height: 1.5;
+  opacity: 0;
+  transform: scale3d(0.8, 0.8, 1);
+  transform-origin: center;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  position: relative;
+  max-height: 0; 
+  overflow: hidden;
+}
+
+.job-process-item:hover {
+  height: auto; 
+}
+
+.job-process-item:hover .job-process-description {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+  max-height: 200px; 
+}
+
+.job-process-arrow {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.job-process-right {
+  flex: 1;
+  min-width: 300px;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.job-process-image {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .job-process {
+    padding: 1.5rem 1rem;
+    text-align: left;
+  }
+
+  .job-process-title-head {
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .job-process-content {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 30px;
+  }
+
+  .job-process-left {
+    max-width: 100%;
+  }
+
+  .job-process-list {
+    gap: 20px;
+  }
+
+  .job-process-item {
+    padding: 15px 0;
+  }
+
+  .job-process-number {
+    font-size: 1.2rem;
+    margin-right: 15px;
+  }
+
+  .job-process-text-container {
+    text-align: left;
+  }
+
+  .job-process-title {
+    font-size: 1.2rem;
+  }
+
+  .job-process-description {
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+
+  .job-process-item:hover .job-process-description {
+    max-height: 170px;
+  }
+
+  .job-process-arrow {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+
+  .job-process-right {
+    max-width: 100%;
+    min-width: unset;
+  }
+
+  .job-process-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .job-process {
+    padding: 2rem 2rem;
+    text-align: left;
+  }
+
+  .job-process-title-head {
+    font-size: 2.5em;
+    text-align: left;
+  }
+
+  .job-process-content {
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 50px;
+  }
+
+  .job-process-left {
+    max-width: 100%;
+  }
+
+  .job-process-list {
+    gap: 25px;
+  }
+
+  .job-process-item {
+    padding: 18px 0;
+  }
+
+  .job-process-number {
+    font-size: 1.4rem;
+    margin-right: 18px;
+  }
+
+  .job-process-title {
+    font-size: 1.4rem;
+  }
+
+  .job-process-description {
+    font-size: 0.9rem;
+    margin-top: 12px;
+  }
+
+  .job-process-item:hover .job-process-description {
+    max-height: 180px;
+  }
+
+  .job-process-arrow {
+    font-size: 17px;
+  }
+
+  .job-process-right {
+    max-width: 100%;
+    min-width: unset;
+  }
+
+  .job-process-image {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .job-process {
+    padding: 2.5rem 3rem;
+  }
+
+  .job-process-title-head {
+    font-size: 2.8em;
+  }
+
+  .job-process-content {
+    gap: 3rem;
+    margin-top: 60px;
+  }
+
+  .job-process-left {
+    max-width: 55%;
+  }
+
+  .job-process-list {
+    gap: 25px;
+  }
+
+  .job-process-item {
+    padding: 18px 0;
+  }
+
+  .job-process-number {
+    font-size: 1.4rem;
+  }
+
+  .job-process-title {
+    font-size: 1.4rem;
+  }
+
+  .job-process-description {
+    font-size: 0.9rem;
+  }
+
+  .job-process-right {
+    max-width: 40%;
+  }
+
+  .job-process-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+  .job-process {
+    padding: 3.5rem 5rem;
+  }
+
+  .job-process-title-head {
+    font-size: 4rem;
+  }
+
+  .job-process-content {
+    gap: 5rem;
+    margin-top: 80px;
+  }
+
+  .job-process-left {
+    max-width: 45%;
+  }
+
+  .job-process-list {
+    gap: 35px;
+  }
+
+  .job-process-item {
+    padding: 25px 0;
+  }
+
+  .job-process-number {
+    font-size: 1.7rem;
+    margin-right: 25px;
+  }
+
+  .job-process-title {
+    font-size: 1.7rem;
+  }
+
+  .job-process-description {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .job-process-item:hover .job-process-description {
+    max-height: 250px;
+  }
+
+  .job-process-arrow {
+    font-size: 20px;
+    margin-left: 25px;
+  }
+
+  .job-process-right {
+    max-width: 50%;
+  }
+
+  .job-process-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .job-process {
+    padding: 4rem 6rem;
+  }
+
+  .job-process-title-head {
+    font-size: 4rem;
+  }
+
+  .job-process-content {
+    gap: 6rem;
+    margin-top: 90px;
+  }
+
+  .job-process-left {
+    max-width: 45%;
+  }
+
+  .job-process-list {
+    gap: 40px;
+  }
+
+  .job-process-item {
+    padding: 30px 0;
+  }
+
+  .job-process-number {
+    font-size: 2.5rem;
+    margin-right: 30px;
+  }
+
+  .job-process-title {
+    font-size: 2.5rem;
+  }
+
+  .job-process-description {
+    font-size: 1.5rem;
+    margin-top: 25px;
+  }
+
+  .job-process-item:hover .job-process-description {
+    max-height: 300px;
+  }
+
+  .job-process-arrow {
+    font-size: 22px;
+    margin-left: 30px;
+  }
+
+  .job-process-right {
+    max-width: 50%;
+  }
+
+  .job-process-image {
+    width: 100%;
+  }
+}

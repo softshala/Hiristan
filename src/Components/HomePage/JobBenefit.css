@@ -1,0 +1,308 @@
+.job-benefit-wrapper {
+  display: flex;
+  background:#fff;
+  padding: 50px 60px;
+  position: relative;
+}
+
+.job-benefit-left {
+  position: sticky;
+  top: 100px;
+  width: 35%;
+  height: fit-content;
+  align-self: flex-start;
+}
+
+.job-benefit-heading {
+  font-size: 4rem;
+  margin: 0;
+  line-height: 1.1;
+  color: var(--secondary-color);
+}
+
+.job-benefit-description {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: var(--tertiary-color);
+  line-height: 1.6;
+}
+
+.job-benefit-right {
+  width: 65%;
+  position: relative;
+  padding-left: 20px;
+}
+
+.job-benefit-card {
+  position: sticky;
+  top: 100px;
+  width: 70%;
+  margin-left: auto;
+  background: var(--green-color);
+  border: 1px solid #ccc;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  height: 50vh;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card icon */
+.job-benefit-icon {
+  width: 80px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+/* Card title */
+.job-benefit-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: var(--secondary-color);
+}
+
+/* Card description */
+.job-benefit-card-description {
+  font-size: 1rem;
+  color: var(--tertiary-color);
+  line-height: 1.6;
+  margin-top: auto;
+}
+
+
+@media (max-width: 600px) {
+  .job-benefit-wrapper {
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+
+  .job-benefit-left {
+    position: static;
+    width: 100%;
+    text-align: left;
+  }
+
+  .job-benefit-heading {
+    font-size: 2.2rem;
+    text-align: left;
+  }
+
+  .job-benefit-heading br{
+    display: none; 
+  }
+  
+  .job-benefit-description {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .job-benefit-right {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .job-benefit-card {
+    position: static;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .job-benefit-icon {
+    width: 60px;
+  }
+
+  .job-benefit-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .job-benefit-card-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .job-benefit-wrapper {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .job-benefit-left {
+    position: static;
+    width: 100%;
+    text-align: left;
+  }
+
+  .job-benefit-heading {
+    font-size: 3.5em;
+    text-align: left;
+  }
+
+  .job-benefit-heading br{
+    display: none; 
+  }
+
+  .job-benefit-description {
+    font-size: 0.95rem;
+    margin-top: 25px;
+    text-align: left;
+  }
+
+  .job-benefit-right {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .job-benefit-card {
+    position: static;
+    width: 80%;
+    padding: 30px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .job-benefit-icon {
+    width: 70px;
+  }
+
+  .job-benefit-card-title {
+    font-size: 1.3rem;
+  }
+
+  .job-benefit-card-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .job-benefit-wrapper {
+    padding: 40px 30px;
+  }
+
+  .job-benefit-left {
+    width: 40%;
+    text-align: left;
+  }
+
+  .job-benefit-heading {
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .job-benefit-description {
+    font-size: 0.95rem;
+    text-align: left;
+  }
+
+  .job-benefit-right {
+    width: 60%;
+  }
+
+  .job-benefit-card {
+    width: 80%;
+    padding: 30px;
+    height: 45vh;
+    margin-bottom: 60px;
+  }
+
+  .job-benefit-icon {
+    width: 70px;
+  }
+
+  .job-benefit-card-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+  .job-benefit-wrapper {
+    padding: 60px 6rem;
+  }
+
+  .job-benefit-left {
+    width: 40%;
+  }
+
+  .job-benefit-heading {
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .job-benefit-description {
+    font-size: 1.1rem;
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  .job-benefit-right {
+    width: 60%;
+  }
+
+  .job-benefit-card {
+    width: 65%;
+    padding: 50px 40px;
+    height: 55vh;
+    margin-bottom: 100px;
+  }
+
+  .job-benefit-icon {
+    width: 90px;
+  }
+
+  .job-benefit-card-title {
+    font-size: 2rem;
+  }
+
+  .job-benefit-card-description {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .job-benefit-wrapper {
+    padding: 60px 5rem;
+  }
+
+  .job-benefit-left {
+    width: 40%;
+  }
+
+  .job-benefit-heading {
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .job-benefit-description {
+    font-size: 1.1rem;
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  .job-benefit-right {
+    width: 60%;
+  }
+
+  .job-benefit-card {
+    width: 65%;
+    padding: 50px 40px;
+    height: 55vh;
+    margin-bottom: 100px;
+  }
+
+  .job-benefit-icon {
+    width: 90px;
+  }
+
+  .job-benefit-card-title {
+    font-size: 2rem;
+  }
+
+  .job-benefit-card-description {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,399 @@
+.job-steps {
+  background: white;
+  padding: 4rem;
+  /* background-image: url('../../assets/images/Homepage/green-background.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain; */
+}
+
+
+.job-steps-container {
+  position: relative;
+}
+
+.job-steps-intro {
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.job-steps-subtitle {
+  color: var(--primary-color);
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.job-steps-title {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin: 0 0 20px;
+}
+
+.job-steps-text {
+  font-size: 1rem;
+  color: var(--tertiary-color);
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.job-steps-button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.job-steps-timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 0;
+}
+
+.job-steps-item {
+  position: relative;
+  width: 26%;
+  text-align: left;
+}
+
+.job-steps-item-1 {
+  align-self: flex-end;
+  transform: translateX(150px);
+  margin-top: 80px;
+}
+
+.job-steps-item-2 {
+  align-self: center;
+  transform: translateX(100px);
+  margin-top: -180px;
+}
+
+.job-steps-item-3 {
+  align-self: flex-start;
+  margin-top: -250px;
+}
+
+.job-steps-info {
+  position: relative;
+  z-index: 2;
+  padding: 20px 0;
+}
+
+.job-steps-step-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.job-steps-description {
+  font-size: 0.9rem;
+  color: var(--tertiary-color);
+  line-height: 1.6;
+  max-width: 100%;
+}
+
+.job-steps-bg-number {
+  font-size: 12rem;
+  font-weight: 800;
+  color: rgba(3, 63, 43, 0.05);
+  position: absolute;
+  top: -90px;
+  right: 10px;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.job-steps-line,
+.job-steps-dot {
+  display: none;
+}
+
+
+@media (max-width: 600px) {
+  .job-steps {
+    padding: 1.5rem 1rem;
+  }
+
+  .job-steps-intro {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .job-steps-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .job-steps-title {
+    font-size: 1.8em;
+    text-align: left;
+  }
+
+  .job-steps-text {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  .job-steps-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .job-steps-timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .job-steps-item {
+    width: 100%;
+    align-self: center;
+    transform: none;
+    margin-top: 0;
+  }
+
+  .job-steps-item-1,
+  .job-steps-item-2,
+  .job-steps-item-3 {
+    margin-top: 20px;
+  }
+
+  .job-steps-info {
+    padding: 15px 0;
+  }
+
+  .job-steps-step-title {
+    font-size: 1.1rem;
+  }
+
+  .job-steps-description {
+    font-size: 0.85rem;
+  }
+
+  .job-steps-bg-number {
+    font-size: 8rem;
+    top: -60px;
+    right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .job-steps {
+    padding: 2rem 2rem;
+  }
+
+  .job-steps-intro {
+    max-width: 80%;
+  }
+
+  .job-steps-title {
+    font-size: 2.5em;
+  }
+
+  .job-steps-text {
+    font-size: 0.95rem;
+  }
+
+  .job-steps-button {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+
+  .job-steps-timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .job-steps-item {
+    width: 80%;
+    align-self: center;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  .job-steps-item-1,
+  .job-steps-item-2,
+  .job-steps-item-3 {
+    margin-top: 0;
+  }
+
+  .job-steps-info {
+    padding: 18px 0;
+  }
+
+  .job-steps-step-title {
+    font-size: 1.15rem;
+  }
+
+  .job-steps-description {
+    font-size: 0.9rem;
+  }
+
+  .job-steps-bg-number {
+    font-size: 10rem;
+    top: -80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .job-steps {
+    padding: 2.5rem 3rem;
+  }
+
+  .job-steps-intro {
+    max-width: 450px;
+  }
+
+  .job-steps-title {
+    font-size: 2.8em;
+  }
+
+  .job-steps-text {
+    font-size: 0.95rem;
+  }
+
+  .job-steps-item {
+    width: 30%;
+  }
+
+  .job-steps-item-1 {
+    transform: translateX(100px);
+    margin-top: 60px;
+  }
+
+  .job-steps-item-2 {
+    transform: translateX(50px);
+    margin-top: -150px;
+  }
+
+  .job-steps-item-3 {
+    margin-top: -200px;
+  }
+
+  .job-steps-bg-number {
+    font-size: 10rem;
+    top: -80px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+  .job-steps {
+    padding: 4.5rem 5rem;
+  }
+
+  .job-steps-intro {
+    max-width: 600px;
+  }
+
+  .job-steps-title {
+    font-size: 3.5em;
+  }
+
+  .job-steps-text {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .job-steps-button {
+    padding: 14px 28px;
+    font-size: 17px;
+  }
+
+  .job-steps-item {
+    width: 28%;
+  }
+
+  .job-steps-item-1 {
+    transform: translateX(200px);
+    margin-top: 100px;
+  }
+
+  .job-steps-item-2 {
+    transform: translateX(150px);
+    margin-top: -200px;
+  }
+
+  .job-steps-item-3 {
+    margin-top: -300px;
+  }
+
+  .job-steps-info {
+    padding: 25px 0;
+  }
+
+  .job-steps-step-title {
+    font-size: 1.3rem;
+  }
+
+  .job-steps-description {
+    font-size: 1rem;
+  }
+
+  .job-steps-bg-number {
+    font-size: 14rem;
+    top: -100px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .job-steps {
+    padding: 5rem 6rem;
+  }
+
+  .job-steps-intro {
+    max-width: 700px;
+  }
+
+  .job-steps-title {
+    font-size: 4em;
+  }
+
+  .job-steps-text {
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+  }
+
+  .job-steps-button {
+    padding: 16px 30px;
+    font-size: 18px;
+  }
+
+  .job-steps-item {
+    width: 25%;
+  }
+
+  .job-steps-item-1 {
+    transform: translateX(250px);
+    margin-top: 120px;
+  }
+
+  .job-steps-item-2 {
+    transform: translateX(200px);
+    margin-top: -220px;
+  }
+
+  .job-steps-item-3 {
+    margin-top: -350px;
+  }
+
+  .job-steps-info {
+    padding: 30px 0;
+  }
+
+  .job-steps-step-title {
+    font-size: 1.4rem;
+  }
+
+  .job-steps-description {
+    font-size: 1.1rem;
+  }
+
+  .job-steps-bg-number {
+    font-size: 16rem;
+    top: -120px;
+  }
+}

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --primary-color: #2D6A4F;
+  --secondary-color: #1f1f2a;
+  --tertiary-color: #666;
+  --blue-color: #dceafd;
+  --green-color: #f6fbf9;
+  --purple-color: #f3e8f3;
+  --highlight-color:#40916C;
+}
+
+p,span,a,i,ul,li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+}

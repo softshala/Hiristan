@@ -1,0 +1,24 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --primary-color: #0936FF;
+  --secondary-color: #1f1f2a;
+  --tertiary-color: #666;
+  --blue-color: #dceafd;
+  --green-color: #ddfce8;
+  --purple-color: #f3e8f3;
+}
+
+p,span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
