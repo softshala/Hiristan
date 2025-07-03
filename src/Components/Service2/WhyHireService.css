@@ -93,3 +93,115 @@
   font-size: 0.95rem;
   line-height: 1.4;
 }
+
+@media (max-width: 600px) {
+  .why-hire-service-section {
+    padding: 2rem 1rem;
+  }
+  .why-hire-service-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .why-hire-service-left,
+  .why-hire-service-right {
+    min-width: 100%;
+  }
+  .why-hire-service-title {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .why-hire-service-description {
+    font-size: 0.9rem;
+  }
+  .why-hire-service-feature {
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .why-hire-service-check-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+  .why-hire-service-feature p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .why-hire-service-section {
+    padding: 3rem 2rem;
+  }
+  .why-hire-service-container {
+    gap: 2rem;
+  }
+  .why-hire-service-title {
+    font-size: 2rem;
+  }
+  .why-hire-service-description {
+    font-size: 0.95rem;
+  }
+  .why-hire-service-feature p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .why-hire-service-section {
+    padding: 3.5rem;
+  }
+  .why-hire-service-title {
+    font-size: 2.25rem;
+  }
+  .why-hire-service-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+  .why-hire-service-section {
+    padding: 5rem;
+  }
+  .why-hire-service-container {
+    
+    gap: 4rem;
+  }
+  .why-hire-service-title {
+    font-size: 3rem;
+  }
+  .why-hire-service-description {
+    font-size: 1.1rem;
+  }
+  .why-hire-service-feature p {
+    font-size: 1rem;
+  }
+  .why-hire-service-check-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .why-hire-service-section {
+    padding: 6rem;
+  }
+  .why-hire-service-container {
+    
+    gap: 5rem;
+  }
+  .why-hire-service-title {
+    font-size: 3.5rem;
+  }
+  .why-hire-service-description {
+    font-size: 1.2rem;
+  }
+  .why-hire-service-feature p {
+    font-size: 1.1rem;
+  }
+  .why-hire-service-check-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}

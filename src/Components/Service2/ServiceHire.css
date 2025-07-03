@@ -101,3 +101,127 @@
 .service-hire-card:hover .service-hire-number {
   color: #ffffff;
 }
+
+@media (max-width: 600px) {
+  .service-hire-section {
+    padding: 0 1rem 2rem;
+  }
+  .service-hire-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .service-hire-heading {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+  .service-hire-subtext {
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+  .service-hire-grid {
+    grid-template-columns: 1fr;
+  }
+  .service-hire-card {
+    padding: 1rem;
+  }
+  .service-hire-number {
+    font-size: 1.2rem;
+  }
+  .service-hire-title {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  .service-hire-description {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .service-hire-section {
+    padding: 0 2rem 3rem;
+  }
+  .service-hire-heading {
+    font-size: 2rem;
+  }
+  .service-hire-subtext {
+    font-size: 0.95rem;
+  }
+  .service-hire-grid {
+    grid-template-columns: 1fr;
+  }
+  .service-hire-card {
+    padding: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .service-hire-section {
+    padding: 0 3.5rem 3.5rem;
+  }
+  .service-hire-heading {
+    font-size: 2.25rem;
+  }
+  .service-hire-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  .service-hire-card {
+    padding: 1.25rem;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+  .service-hire-section {
+    padding: 0 5rem 5rem;
+  }
+  
+  .service-hire-heading {
+    font-size: 3rem;
+  }
+  .service-hire-subtext {
+    font-size: 1.1rem;
+  }
+  .service-hire-grid {
+    gap: 2.5rem;
+  }
+  .service-hire-card {
+    padding: 2rem;
+  }
+  .service-hire-number {
+    font-size: 1.75rem;
+  }
+  .service-hire-title {
+    font-size: 1.5rem;
+  }
+  .service-hire-description {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .service-hire-section {
+    padding: 0 6rem 6rem;
+  }
+  
+  .service-hire-heading {
+    font-size: 3.5rem;
+  }
+  .service-hire-subtext {
+    font-size: 1.2rem;
+  }
+  .service-hire-grid {
+    gap: 3rem;
+  }
+  .service-hire-card {
+    padding: 2.5rem;
+  }
+  .service-hire-number {
+    font-size: 2rem;
+  }
+  .service-hire-title {
+    font-size: 1.5rem;
+  }
+  .service-hire-description {
+    font-size: 1.1rem;
+  }
+}

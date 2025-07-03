@@ -107,3 +107,131 @@
   font-size: 0.8rem;
   font-weight: 500;
 }
+
+@media (max-width: 600px) {
+  .service-expert-container {
+    padding: 0 1rem 2rem;
+  }
+  .service-expert-header {
+    text-align: left;
+  }
+  .service-expert-heading {
+    font-size: 2rem;
+  }
+  .service-expert-subheading {
+    font-size: 0.9rem;
+  }
+  .service-expert-grid {
+    grid-template-columns: 1fr;
+  }
+  .service-expert-card {
+    padding: 1.5rem;
+  }
+  .service-expert-img {
+    width: 70px;
+    height: 70px;
+  }
+  .service-expert-experience-badge {
+    display: none;
+  }
+  .service-expert-name {
+    font-size: 1rem;
+  }
+  .service-expert-role,
+  .service-expert-location {
+    font-size: 0.75rem;
+  }
+  .service-expert-description {
+    font-size: 0.8rem;
+  }
+  .service-expert-skill {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .service-expert-container {
+    padding: 0 2rem 3rem;
+  }
+  .service-expert-heading {
+    font-size: 2.5rem;
+  }
+  .service-expert-grid {
+    grid-template-columns: 1fr;
+  }
+  .service-expert-card {
+    padding: 1.75rem;
+  }
+  .service-expert-img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .service-expert-container {
+    padding: 0 3.5rem 3.5rem;
+  }
+  .service-expert-heading {
+    font-size: 2.75rem;
+  }
+  .service-expert-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .service-expert-card {
+    padding: 1.75rem;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+  .service-expert-container {
+    padding: 0 5rem 5rem;
+  }
+  .service-expert-heading {
+    font-size: 3rem;
+  }
+  .service-expert-subheading {
+    font-size: 1.2rem;
+  }
+  .service-expert-grid {
+    gap: 1.5rem;
+  }
+  .service-expert-card {
+    padding: 2.5rem;
+  }
+  .service-expert-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .service-expert-container {
+    padding: 0 6rem 6rem;
+  }
+  .service-expert-heading {
+    font-size: 4rem;
+  }
+  .service-expert-subheading {
+    font-size: 1.3rem;
+  }
+  .service-expert-grid {
+    gap: 2rem;
+  }
+  .service-expert-card {
+    padding: 3rem;
+  }
+  .service-expert-img {
+    width: 120px;
+    height: 120px;
+  }
+  .service-expert-name {
+    font-size: 1.5rem;
+  }
+  .service-expert-description {
+    font-size: 1rem;
+  }
+  .service-expert-skill {
+    font-size: 0.9rem;
+  }
+}
