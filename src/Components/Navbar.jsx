@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Logo from '../assets/images/Homepage/HIRISTAN.svg'; 
 
@@ -23,9 +24,21 @@ const Navbar = () => {
 
       <div className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
         <ul className="navbar-items">
-          <li className="navbar-item">Services</li>
-          <li className="navbar-item">Pricing</li>
-          <li className="navbar-item">Jobs</li>
+          <li className="navbar-item">
+            <Link to="/services">Services</Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/service-now">ServiceNow</Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/salesforce">Salesforce</Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/pricing">Pricing</Link>
+          </li>
+          <li className="navbar-item">
+            <Link to="/jobs">Jobs</Link>
+          </li>
         </ul>
         <div className="navbar-action">
           <button className="start-hiring-btn">Start Hiring</button>
