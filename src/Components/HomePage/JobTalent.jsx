@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './JobTalent.css';
 import { FaUserClock, FaUserTie, FaBrain } from 'react-icons/fa';
 
-import imageFreelance from '../../assets/images/Homepage/process1.png';
-import imageDirect from '../../assets/images/Homepage/process2.png';
-import imageLLM from '../../assets/images/Homepage/process3.png';
+import imageFreelance from '../../assets/images/Homepage/team.jpg';
+import imageDirect from '../../assets/images/Homepage/hourly.jpg';
+import imageLLM from '../../assets/images/Homepage/managed.jpg';
+import delievery from '../../assets/images/Homepage/project.jpg';
 
 const tabs = [
   {
@@ -36,7 +38,7 @@ const tabs = [
     heading: 'Project Delivery',
     description:
       "Complete project outsourcing with a dedicated delivery manager, consultants, and technical resources. End-to-end responsibility ensuring maximum value and seamless project execution from concept to completion.",
-    image: imageLLM,
+    image: delievery,
     icon: <FaBrain />,
   },
 ];
@@ -68,7 +70,9 @@ const JobTalent = () => {
             <div className="job-talent-icon">{tabs[activeTab].icon}</div>
             <h3 className="job-talent-subheading">{tabs[activeTab].heading}</h3>
             <p className="job-talent-description">{tabs[activeTab].description}</p>
-            <button className="job-talent-button">Get Started Now</button>
+            <Link to="/contact" >
+              <button className="job-talent-button">Get Started Now</button>
+            </Link>
           </div>
 
           <div className="job-talent-right">

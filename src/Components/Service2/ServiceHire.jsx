@@ -4,27 +4,75 @@ import './ServiceHire.css';
 const serviceHireItems = [
   {
     number: '01',
-    title: 'Impressive from the Get-Go: Launch with Style',
+    title: 'Sales Cloud',
     description:
-      'Create an unforgettable first impression from the very start. Our meticulously designed templates and optimized frameworks guarantee that your website captivates and engages visitors.',
+      'Optimize revenue pipelines with lead management, opportunity tracking, and automated sales workflows.',
   },
   {
     number: '02',
-    title: "Innovative Solutions for Today's Builders",
+    title: "Service Cloud",
     description:
-      "We provide state-of-the-art tools and frameworks designed for modern developers and digital innovators. Whether you're creating robust web applications or interactive platforms, we've got you covered.",
+      "Enhance customer support through case management, omnichannel routing, and AI-powered service automation.",
   },
   {
     number: '03',
-    title: 'Reliable Solutions for Every Challenge',
+    title: 'Marketing Cloud',
     description:
-      'In a rapidly evolving digital landscape, maintaining consistency is crucial. Our solutions prioritize performance, guaranteeing swift load times and seamless user experiences.',
+      'Execute targeted campaigns with email automation, customer journey mapping, and personalization strategies.',
   },
   {
     number: '04',
-    title: 'Designed for Impact, Built for Success',
+    title: 'Commerce Cloud',
     description:
-      'Our websites are not only visually stunning; they are expertly designed to drive significant results. By merging user-centric design with swift performance, we guarantee that your online presence makes a lasting impression.',
+      'Build scalable e-commerce experiences with storefront customization, order management, and payment integrations.',
+  },
+  {
+    number: '05',
+    title: 'Revenue Cloud',
+    description:
+      'Streamline quote-to-cash processes with CPQ configuration, subscription billing, and revenue recognition automation.',
+  },
+  {
+    number: '06',
+    title: 'Salesforce Industries (Vlocity)',
+    description:
+      'Deploy industry-specific solutions for healthcare, financial services, communications, and utilities accelerators.',
+  },
+  {
+    number: '07',
+    title: 'Experience Cloud',
+    description:
+      'Create branded digital experiences with community portals, partner channels, and customer self-service.',
+  },
+  {
+    number: '08',
+    title: 'Agentforce',
+    description:
+      'Implement AI-powered autonomous agents for customer service, sales support, and workflow orchestration.',
+  },
+  {
+    number: '09',
+    title: 'Data Cloud',
+    description:
+      'Unify customer data with real-time integration, identity resolution, and AI-driven insights.',
+  },
+    {
+    number: '10',
+    title: 'Salesforce Platform',
+    description:
+      'Develop custom applications with Apex, Lightning components, Flow automation, and system integrations.',
+  },
+    {
+    number: '11',
+    title: 'Tableau',
+    description:
+      'Transform data into actionable insights with advanced analytics, interactive dashboards, and business intelligence.',
+  },
+    {
+    number: '12',
+    title: 'MuleSoft',
+    description:
+      'Connect systems seamlessly with API management, data integration, and real-time synchronization solutions.',
   },
 ];
 
@@ -34,8 +82,7 @@ const ServiceHire = () => {
       <div className="service-hire-container">
         <div className="service-hire-header-row">
           <h2 className="service-hire-heading">
-            Get started with our Salesforce
-developer  <br />hiring  guides
+            Salesforce Experts Skilled Across All Platform  <br />Products and Solutions
           </h2>
           
         </div>

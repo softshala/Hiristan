@@ -52,9 +52,10 @@ const ServiceExpert = () => {
   return (
     <div className="service-expert-container">
       <div className="service-expert-header">
-        <h2 className="service-expert-heading">Our ServiceNow Developers</h2>
+        <h2 className="service-expert-heading">Access Our Pool of Verified ServiceNow Experts <br />Ready to Join Your Team
+</h2>
         <p className="service-expert-subheading">
-          Our top talents come from world-leading companies
+          Meet pre-screened ServiceNow experts with comprehensive platform knowledge and verified experience, and relevant certifications.
         </p>
       </div>
       <div className="service-expert-grid">

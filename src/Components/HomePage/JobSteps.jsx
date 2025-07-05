@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './JobSteps.css';
 
 const steps = [
@@ -32,7 +33,9 @@ const JobSteps = () => {
           <p className="job-steps-text">
            Our systematic approach transforms your hiring challenges into strategic advantages through precision matching and rapid deployment of elite technical professionals.
           </p>
-          <button className="job-steps-button">Get Started</button>
+          <Link to="/contact">
+            <button className="job-steps-button">Get Started</button>
+          </Link>
         </div>
 
         <div className="job-steps-timeline">

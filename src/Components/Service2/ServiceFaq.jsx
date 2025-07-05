@@ -2,13 +2,11 @@ import React, { useState } from 'react';
 import './ServiceFaq.css';
 
 const faqData = [
-  { question: "What is Salesforce?", answer: "Salesforce is a cloud-based platform for customer relationship management, sales automation, and enterprise operations." },
-  { question: "Where can I find Salesforce developers?", answer: "You can find Salesforce developers on freelance platforms, job boards, or through specialized agencies." },
-  { question: "How much do Salesforce developers make?", answer: "Salesforce developers' salaries vary by experience and location, typically ranging from $70,000 to $160,000 annually." },
-  { question: "Why should you hire Salesforce developers?", answer: "Salesforce developers bring expertise in CRM customization, sales automation, and platform integration." },
-  { question: "What is the no-risk trial period for hiring a Salesforce developer with CloudDevs?", answer: "CloudDevs offers a risk-free trial period to evaluate your developer before committing." },
-  { question: "What is Salesforce mainly used for?", answer: "Salesforce is used for customer relationship management, sales automation, marketing, and more." },
-];
+  { question: "What Salesforce editions do your professionals work with (Essentials, Professional, Enterprise, Unlimited)?", answer: "Our Salesforce experts are certified across all editions from Essentials to Unlimited. They understand edition-specific limitations, feature availability, and can recommend optimal edition upgrades based on your business requirements. We ensure seamless transitions between editions while maximizing ROI." },
+  { question: "Do you provide Salesforce CPQ (Configure, Price, Quote) implementation and customization services?", answer: "Our Salesforce-certified experts implement end-to-end quote-to-cash processes, including product configuration, pricing rules, approval workflows, and contract generation. We customize CPQ for complex pricing models, multi-currency environments, and integrate with ERP systems for seamless operations." },
+  { question: "Can you integrate Salesforce with ERP systems like SAP, Oracle, or Microsoft Dynamics?", answer: "Yes, our integration specialists connect Salesforce with major ERP systems using REST/SOAP APIs, middleware platforms, and real-time synchronization. We ensure data consistency, implement error handling, and maintain audit trails for complete financial and operational data integration." },
+  { question: "Do you provide Salesforce org health checks and performance audits?", answer: "Our certified experts conduct comprehensive org assessments, including security reviews, performance analysis, code quality audits, and best practices evaluation. We provide detailed reports with actionable recommendations for optimization, risk mitigation, and enhanced system performance." },
+ ];
 
 const ServiceFaq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -19,7 +17,7 @@ const ServiceFaq = () => {
 
   return (
     <section className="service-faq-section">
-      <h2 className="service-faq-heading">FAQs about hiring Salesforce developers</h2>
+      <h2 className="service-faq-heading">FAQs About Hiring Salesforce Experts</h2>
       <div className="service-faq-list">
         {faqData.map((item, index) => (
           <div key={index} className={`service-faq-item ${index === 0 ? 'no-top-border' : ''} ${index === faqData.length - 1 ? 'no-bottom-border' : ''}`}>

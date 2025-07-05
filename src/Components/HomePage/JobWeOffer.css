@@ -41,9 +41,13 @@
 }
 
 .job-we-offer-icon {
-  font-size: 32px;
-  color: var(--primary-color);
   margin-bottom: 20px;
+}
+
+.job-we-offer-icon-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .job-we-offer-title {
@@ -84,9 +88,9 @@
     padding: 20px;
   }
 
-  .job-we-offer-icon {
-    font-size: 28px;
-    margin-bottom: 15px;
+  .job-we-offer-icon-img {
+    width: 28px;
+    height: 28px;
   }
 
   .job-we-offer-title {
@@ -124,8 +128,9 @@
     padding: 20px;
   }
 
-  .job-we-offer-icon {
-    font-size: 30px;
+  .job-we-offer-icon-img {
+    width: 30px;
+    height: 30px;
   }
 
   .job-we-offer-title {
@@ -160,8 +165,9 @@
     padding: 22px;
   }
 
-  .job-we-offer-icon {
-    font-size: 30px;
+  .job-we-offer-icon-img {
+    width: 30px;
+    height: 30px;
   }
 
   .job-we-offer-title {
@@ -193,9 +199,9 @@
     padding: 30px;
   }
 
-  .job-we-offer-icon {
-    font-size: 36px;
-    margin-bottom: 25px;
+  .job-we-offer-icon-img {
+    width: 36px;
+    height: 36px;
   }
 
   .job-we-offer-title {
@@ -231,9 +237,9 @@
     padding: 35px;
   }
 
-  .job-we-offer-icon {
-    font-size: 40px;
-    margin-bottom: 30px;
+  .job-we-offer-icon-img {
+    width: 40px;
+    height: 40px;
   }
 
   .job-we-offer-title {

@@ -33,11 +33,55 @@
   cursor: pointer;
   text-decoration: none;
 }
-.navbar-item a{
+
+.navbar-item a {
   text-decoration: none;
   color: var(--secondary-color);
 }
+
 .navbar-item:hover {
+  color: var(--primary-color);
+}
+
+.navbar-item:hover a {
+  color: var(--primary-color);
+}
+
+.navbar-item-dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 5px;
+  list-style: none;
+  padding: 10px 0;
+  min-width: 200px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 8px 20px;
+}
+
+.dropdown-item a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-item:hover a {
   color: var(--primary-color);
 }
 
@@ -53,6 +97,8 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .navbar-logo-img {
@@ -123,6 +169,27 @@
     text-align: center;
   }
 
+  .navbar-item-dropdown {
+    width: 100%;
+  }
+
+  .dropdown-toggle {
+    justify-content: center;
+  }
+
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: none;
+    box-shadow: none;
+    padding: 10px 0;
+  }
+
+  .dropdown-item {
+    padding: 8px 0;
+  }
+
   .navbar-action {
     margin-left: 0;
     width: 100%;
@@ -168,6 +235,10 @@
   .navbar-logo-img {
     height: 24px;
   }
+
+  .dropdown-menu {
+    min-width: 180px;
+  }
 }
 
 /* Small desktops (min-width: 992px and max-width: 1199.98px) */
@@ -191,6 +262,10 @@
   .start-hiring-btn {
     padding: 9px 18px;
     font-size: 15px;
+  }
+
+  .dropdown-menu {
+    min-width: 190px;
   }
 }
 
@@ -220,6 +295,10 @@
   .navbar-logo-img {
     height: 28px;
   }
+
+  .dropdown-menu {
+    min-width: 220px;
+  }
 }
 
 /* Extra large desktops (min-width: 2000px) */
@@ -247,5 +326,9 @@
 
   .navbar-logo-img {
     height: 30px;
+  }
+
+  .dropdown-menu {
+    min-width: 240px;
   }
 }

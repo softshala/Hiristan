@@ -5,19 +5,19 @@ import teamImage from '../../assets/images/Servicepage/sales.png'; // Replace wi
 
 const features = [
   {
-    title: '#1 Quality Job',
+    title: 'Certified Salesforce Specialists',
     description:
-      'Hire from the largest pool of pre-vetted LatAm talent',
+      'Verified experts with active certifications across Sales Cloud, Service Cloud, and specialized platforms.',
   },
   {
-    title: 'Top Companies',
+    title: 'Cross-Industry Experience',
     description:
-      'Receive a personalized shortlist in just 48 hours',
+      'Proven success across healthcare, finance, manufacturing, retail, and non-profit sector implementations',
   },
   {
-    title: 'International Jobs',
+    title: 'Agile Methodology ',
     description:
-      'Receive a personalized shortlist in just 48 hours',
+      'An iterative development approach with regular client feedback loops and rapid deployment capabilities.',
   },
   
 ];
@@ -33,9 +33,9 @@ const WhyHireService = () => {
           </div>
         </div>
         <div className="why-hire-service-right">
-          <h2 className="why-hire-service-title">Why hire ServiceNow developers?</h2>
+          <h2 className="why-hire-service-title">Why Choose Hiristan for Salesforce Experts Staffing?</h2>
           <p className="why-hire-service-description">
-            With Hiristhan, you never have to worry about finding elite Python talent. Our elite developers have at least 5 years of experience and are available on a staffing or long-term basis.
+            Leverage the capabilities of the Salesforce platform with our rigorously vetted professionals who deliver accountability-driven results across all engagement models.
           </p>
           <ul className="why-hire-service-features">
             {features.map((feature, index) => (

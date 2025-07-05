@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 import BrandImage from '../assets/images/Homepage/HIRISTAN.svg'; // Adjust path to your image
 
 const Footer = () => {
@@ -21,16 +21,16 @@ const Footer = () => {
       {/* Navigation Links */}
       <div className="footer-top">
         <nav className="footer-nav">
-          <a href="#home" className="footer-link">Home</a>
-          <a href="#about" className="footer-link">About</a>
-          <a href="#projects" className="footer-link">Projects</a>
-          <a href="#services" className="footer-link">Services</a>
-          <a href="#contact" className="footer-link">Contact</a>
-          <a href="#blog" className="footer-link">Blog</a>
+          <a href="/about" className="footer-link">About</a>
+          <a href="/hire-salesforce-professionals" className="footer-link">Salesforce</a>
+          <a href="/hire-servicenow-professionals" className="footer-link">ServiceNow</a>
+          <a href="/contact" className="footer-link">Contact</a>
+          <a href="/terms-and-conditions" className="footer-link">Terms and Conditions</a>
+          <a href="/privacy-policy" className="footer-link">Privacy Policy</a>
         </nav>
       </div>
 
-      {/* Background Image and Button */}
+      {/* Background Image */}
       <div className="footer-background-wrapper">
         <img src={BrandImage} alt="Hiristhan" className="footer-background-image" />
       </div>

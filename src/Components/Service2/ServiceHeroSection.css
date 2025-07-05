@@ -67,6 +67,9 @@ font-size: 0.8rem;
     font-size: 1.5rem;
     line-height: 1.4;
   }
+  .service-hero-section-heading br{
+    display: none;
+  }
   .service-hero-section-subtext {
     font-size: 0.8rem;
   }

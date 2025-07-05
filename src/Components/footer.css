@@ -52,7 +52,7 @@
   color: #555;
 }
 
-/* Background and Button */
+/* Background */
 .footer-background-wrapper {
   position: relative;
   width: 100%;
@@ -67,7 +67,7 @@
   bottom: 0;
   width: 100%;
   max-width: 100%;
- opacity: 1;
+  opacity: 1;
   object-fit: contain;
   pointer-events: none;
   z-index: 0;
@@ -106,11 +106,6 @@
   .footer-background-image {
     width: 100%;
   }
-
-  .footer-circle-button {
-    padding: 8px;
-    font-size: 14px;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -143,11 +138,6 @@
 
   .footer-background-image {
     width: 100%;
-  }
-
-  .footer-circle-button {
-    padding: 10px;
-    font-size: 16px;
   }
 }
 
@@ -207,11 +197,6 @@
   .footer-background-image {
     width: 100%;
   }
-
-  .footer-circle-button {
-    padding: 14px;
-    font-size: 18px;
-  }
 }
 
 @media (min-width: 2000px) {
@@ -240,10 +225,5 @@
 
   .footer-background-image {
     width: 100%;
-  }
-
-  .footer-circle-button {
-    padding: 16px;
-    font-size: 20px;
   }
 }

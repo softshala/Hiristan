@@ -118,6 +118,9 @@
   .service-expert-heading {
     font-size: 2rem;
   }
+  .service-expert-heading br{
+     display: none;
+  }
   .service-expert-subheading {
     font-size: 0.9rem;
   }

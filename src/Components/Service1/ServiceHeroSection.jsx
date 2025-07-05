@@ -1,19 +1,18 @@
 import React from 'react';
 import './ServiceHeroSection.css';
-import heroImage from '../../assets/images/Servicepage/service.webp'; // Replace with your actual image path
+import heroImage from '../../assets/images/Servicepage/service.jpg'; // Replace with your actual image path
 
 const ServiceHeroSection = () => {
   return (
     <section className="service-hero-section">
       <div className="service-hero-section-content">
-        <span className="service-hero-section-label">BEST SERVICES</span>
+       
         <h1 className="service-hero-section-heading">
-          Hire elite ServiceNow <br />
-          developers in <span className="service-hero-section-highlight">24 hours</span>
+          Hire Pre-Vetted ServiceNow Professionals <br />
+          for End-to-End <span className="service-hero-section-highlight">Platform Excellence</span>
         </h1>
         <p className="service-hero-section-subtext">
-          Our expertise spans across digital strategy, branding, performance marketing, and
-          audience engagement, ensuring measurable growth and long-term success.
+          Stop struggling with ServiceNow talent gaps. Hire rigorously tested, verified ServiceNow professionals who ensure timely delivery and complete project accountability. 
         </p>
         <div className="service-hero-section-image-wrapper">
           <img

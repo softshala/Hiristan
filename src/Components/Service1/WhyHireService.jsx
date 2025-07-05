@@ -5,19 +5,19 @@ import teamImage from '../../assets/images/Servicepage/servicenow.png'; // Repla
 
 const features = [
   {
-    title: '#1 Quality Job',
+    title: 'Verified Experience Portfolios',
     description:
-      'Hire from the largest pool of pre-vetted LatAm talent',
+      'Complete background verification with client-accessible documentation of successful ServiceNow projects and certifications.',
   },
   {
-    title: 'Top Companies',
+    title: 'Flexible Engagement Models',
     description:
-      'Receive a personalized shortlist in just 48 hours',
+      'Dedicated teams, hourly resources, managed services, or full project delivery tailored to your requirements.',
   },
   {
-    title: 'International Jobs',
+    title: 'Accountability-Driven SLA Framework',
     description:
-      'Receive a personalized shortlist in just 48 hours',
+      'Strict adherence to delivery timelines, availability commitments, and performance standards.',
   },
   
 ];
@@ -33,9 +33,9 @@ const WhyHireService = () => {
           </div>
         </div>
         <div className="why-hire-service-right">
-          <h2 className="why-hire-service-title">Why hire ServiceNow developers?</h2>
+          <h2 className="why-hire-service-title">Why Choose Hiristan for ServiceNow Professional Staffing?</h2>
           <p className="why-hire-service-description">
-            With Hiristhan, you never have to worry about finding elite Python talent. Our elite developers have at least 5 years of experience and are available on a staffing or long-term basis.
+            Experience unmatched quality and accountability in ServiceNow talent acquisition with our comprehensive vetting and transparent engagement approach.
           </p>
           <ul className="why-hire-service-features">
             {features.map((feature, index) => (

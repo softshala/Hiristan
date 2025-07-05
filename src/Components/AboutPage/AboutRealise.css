@@ -1,0 +1,214 @@
+.aboutrealise-section {
+  padding: 4rem 4rem 0;
+  color: var(--secondary-color);
+}
+
+.aboutrealise-title {
+  font-size: 2.4rem;
+  line-height: 1.3;
+  color: var(--secondary-color);
+  margin-bottom: 1.2rem;
+}
+
+.aboutrealise-title span {
+  color: var(--primary-color);
+}
+
+.aboutrealise-paragraph {
+  font-size: 1.1rem;
+  color: var(--tertiary-color);
+  line-height: 1.4;
+  margin-bottom: 1.6rem;
+}
+
+.aboutrealise-subtitle {
+  font-size: 1.7rem;
+  color: var(--primary-color);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.aboutrealise-quote {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  background-color: #e6f5f0;
+  border-left: 5px solid var(--primary-color);
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .aboutrealise-section {
+    padding: 1rem;
+   
+    border-radius: 1rem;
+    text-align: left;
+  }
+
+  .aboutrealise-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .aboutrealise-title span {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  .aboutrealise-paragraph {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  .aboutrealise-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .aboutrealise-quote {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .aboutrealise-section {
+    padding: 2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+  }
+
+  .aboutrealise-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .aboutrealise-title span {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  .aboutrealise-paragraph {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+
+  .aboutrealise-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .aboutrealise-quote {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .aboutrealise-section {
+    padding: 3rem;
+    border-radius: 1.3rem;
+    text-align: center;
+  }
+
+  .aboutrealise-title {
+    font-size: 1.9rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .aboutrealise-title span {
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .aboutrealise-paragraph {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+
+  .aboutrealise-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .aboutrealise-quote {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+  .aboutrealise-section {
+    padding: 4rem 5rem 2rem;
+    border-radius: 1.5rem;
+  }
+
+  .aboutrealise-title {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .aboutrealise-title span {
+    font-size: 2.2rem;
+    font-weight: 400;
+  }
+
+  .aboutrealise-paragraph {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+  }
+
+  .aboutrealise-subtitle {
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .aboutrealise-quote {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-top: 2.5rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .aboutrealise-section {
+    padding: 5rem 6rem 2rem;
+    border-radius: 1.8rem;
+  }
+
+  .aboutrealise-title {
+    font-size: 2.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .aboutrealise-title span {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+
+  .aboutrealise-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+  }
+
+  .aboutrealise-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .aboutrealise-quote {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 3rem;
+  }
+}

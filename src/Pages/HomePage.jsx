@@ -17,9 +17,10 @@ const Homepage = () => {
       <FeaturedJob />
       <JobBenefit />
       <JobProcess />
+      <JobSteps />
       <JobWeOffer />
       <JobTalent />
-      <JobSteps />
+      
       <Footer />
     </div>
   );

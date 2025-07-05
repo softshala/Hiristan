@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './JobProcess.css';
-import processImage1 from '../../assets/images/Homepage/process1.png';
-import processImage2 from '../../assets/images/Homepage/process2.png'; 
-import processImage3 from '../../assets/images/Homepage/process3.png'; 
-import processImage4 from '../../assets/images/Homepage/process1.png'; 
+import processImage1 from '../../assets/images/Homepage/internal.jpg';
+import processImage2 from '../../assets/images/Homepage/real.jpg'; 
+import processImage3 from '../../assets/images/Homepage/legal.jpg'; 
+import processImage4 from '../../assets/images/Homepage/internal.jpg'; 
 
 const jobItems = [
   { number: '01', title: 'Internal Preliminary Assessment', description: 'Comprehensive evaluation combining HR-led soft skills assessment and technical lead evaluation. We verify prior experience, analyze customer satisfaction scores by assessing successful project delivery history to ensure candidates meet our foundational standards.' },

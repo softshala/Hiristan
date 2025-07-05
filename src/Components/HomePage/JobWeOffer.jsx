@@ -1,35 +1,40 @@
 import React from 'react';
 import './JobWeOffer.css';
-import { FaLaptopCode, FaCode, FaDatabase, FaRobot, FaMobileAlt, FaPalette } from 'react-icons/fa';
+import SalesforceIcon from '../../assets/images/Homepage/Salesforce.webp';
+import ServiceNowIcon from '../../assets/images/Homepage/ServiceNow.png';
+import AWSIcon from '../../assets/images/Homepage/AWS.png';
+import GCPIcon from '../../assets/images/Homepage/GCP.webp';
+import AzureIcon from '../../assets/images/Homepage/Azure.png';
+import HubSpotIcon from '../../assets/images/Homepage/HubSpot.png';
 
 const jobRoles = [
   {
-    icon: <FaLaptopCode />,
+    icon: <img src={SalesforceIcon} alt="Salesforce Icon" className="job-we-offer-icon-img" />,
     title: 'Salesforce',
     description: 'Custom CRM development, automation workflows, integrations, and Lightning platform solutions.',
   },
   {
-    icon: <FaCode />,
+    icon: <img src={ServiceNowIcon} alt="ServiceNow Icon" className="job-we-offer-icon-img" />,
     title: 'ServiceNow',
     description: 'IT service management, workflow automation, custom applications, and enterprise integrations.',
   },
   {
-    icon: <FaDatabase />,
+    icon: <img src={AWSIcon} alt="AWS Icon" className="job-we-offer-icon-img" />,
     title: 'Amazon Web Services (AWS)',
     description: 'Cloud infrastructure, serverless architecture, DevOps automation, and scalable application deployment.',
   },
   {
-    icon: <FaRobot />,
+    icon: <img src={GCPIcon} alt="GCP Icon" className="job-we-offer-icon-img" />,
     title: 'Google Cloud Platform (GCP)',
     description: 'Machine learning solutions, data analytics, cloud migration, and enterprise application development.',
   },
   {
-    icon: <FaMobileAlt />,
+    icon: <img src={AzureIcon} alt="Azure Icon" className="job-we-offer-icon-img" />,
     title: 'Microsoft Azure ',
     description: 'Cloud computing services, enterprise integration, AI solutions, and hybrid infrastructure management.',
   },
   {
-    icon: <FaPalette />,
+    icon: <img src={HubSpotIcon} alt="HubSpot Icon" className="job-we-offer-icon-img" />,
     title: 'HubSpot',
     description: 'Marketing automation, CRM customization, sales pipeline optimization, and customer engagement solutions.',
   },

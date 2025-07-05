@@ -72,7 +72,7 @@
   color: #fff;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 1rem;
   cursor: pointer;
   margin: 20px 0;
@@ -124,7 +124,7 @@
   height: 650px;
   overflow: hidden;
   border-radius: 10px;
-  background: url('../../assets/images/Homepage/bns-1.webp') no-repeat center center/cover;
+  background: url('../../assets/images/Homepage/hero.png') no-repeat center center/cover;
   -webkit-mask: url('../../assets/images/Homepage/shape.svg') no-repeat center;
   mask: url('../../assets/images/Homepage/shape.svg') no-repeat center;
   -webkit-mask-size: 100% 100%;

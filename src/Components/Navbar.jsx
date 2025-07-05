@@ -1,21 +1,28 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import Logo from '../assets/images/Homepage/HIRISTAN.svg'; 
+import Logo from '../assets/images/Homepage/HIRISTAN.svg';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const toggleServicesDropdown = () => {
+    setIsServicesDropdownOpen(!isServicesDropdownOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={Logo} alt="Hiristhan Logo" className="navbar-logo-img" />
+        <Link to="/">
+          <img src={Logo} alt="Hiristhan Logo" className="navbar-logo-img" />
+        </Link>
       </div>
-      
+
       <button className="hamburger" onClick={toggleMenu}>
         <span className="hamburger-line"></span>
         <span className="hamburger-line"></span>
@@ -24,24 +31,33 @@ const Navbar = () => {
 
       <div className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
         <ul className="navbar-items">
-          <li className="navbar-item">
-            <Link to="/services">Services</Link>
+          <li className="navbar-item navbar-item-dropdown">
+            <span onClick={toggleServicesDropdown} className="dropdown-toggle">
+              Services
+            </span>
+            {isServicesDropdownOpen && (
+              <ul className="dropdown-menu">
+                <li className="dropdown-item">
+                  <Link to="/hire-salesforce-professionals">Salesforce</Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link to="/hire-servicenow-professionals">ServiceNow</Link>
+                </li>
+              </ul>
+            )}
           </li>
           <li className="navbar-item">
-            <Link to="/service-now">ServiceNow</Link>
+            <Link to="/about">About</Link>
           </li>
           <li className="navbar-item">
-            <Link to="/salesforce">Salesforce</Link>
+            <Link to="/contact">Contact</Link>
           </li>
           <li className="navbar-item">
-            <Link to="/pricing">Pricing</Link>
-          </li>
-          <li className="navbar-item">
-            <Link to="/jobs">Jobs</Link>
+            <Link to="/contact">Jobs</Link>
           </li>
         </ul>
         <div className="navbar-action">
-          <button className="start-hiring-btn">Start Hiring</button>
+          <Link to="/contact" className="start-hiring-btn">Start Hiring</Link>
         </div>
       </div>
     </nav>

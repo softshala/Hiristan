@@ -1,13 +1,13 @@
 
 .featured-job-section {
-  padding: 2rem 4rem;
+  padding: 0 4rem 2rem;
   text-align: center;
   background-color: #fff;
 }
 
 .featured-job-title {
   font-size: 3rem;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
   color: var(--secondary-color);
 }
 

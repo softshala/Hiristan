@@ -1,23 +1,30 @@
 import React from 'react';
 import './JobBenefit.css';
-import userIcon from '../../assets/images/Homepage/icon1.svg'; // Import your icon image here
+import payrollIcon from '../../assets/images/Homepage/Payroll.svg'; 
+import performanceIcon from '../../assets/images/Homepage/Performance.svg'; 
+import complianceIcon from '../../assets/images/Homepage/Compliance.svg'; 
+import securityIcon from '../../assets/images/Homepage/IP.svg'; 
 
 const benefits = [
   {
     title: 'Payroll Management',
     description: "Complete payroll administration, tax compliance, and benefits management are managed seamlessly. Focus on project delivery while we manage all employment-related administrative complexities.",
+    icon: payrollIcon,
   },
   {
     title: 'Performance Benchmarking & Optimization',
     description: "Continuous performance analysis against industry standards with actionable optimization recommendations. Data-driven insights help maximize your technology investment ROI and operational efficiency.",
+    icon: performanceIcon,
   },
   {
     title: 'Compliance Management',
     description: "Regular compliance monitoring and reporting for industry-specific regulations. Real-time alerts and documentation ensure your projects maintain regulatory adherence without additional overhead.",
+    icon: complianceIcon,
   },
   {
     title: 'IP Protection & Security',
     description: "Comprehensive intellectual property protection through robust NDAs, secure development environments, and data encryption protocols. Your sensitive information remains completely protected.",
+    icon: securityIcon,
   },
 ];
 
@@ -37,7 +44,7 @@ const JobBenefit = () => {
             key={index}
             style={{ zIndex: 10 + index }}
           >
-             <img src={userIcon} alt="User Icon" className="job-benefit-icon" />
+             <img src={item.icon} alt={`${item.title} Icon`} className="job-benefit-icon" />
             <h2 className="job-benefit-card-title">{item.title}</h2>
             <p className="job-benefit-card-description">{item.description}</p>
           </div>

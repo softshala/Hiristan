@@ -1,0 +1,246 @@
+.job-we-offer-section {
+  background-color: var(--green-color);
+  padding: 2rem 4rem;
+  text-align: center;
+}
+
+.job-we-offer-container {
+  margin: 0 auto;
+}
+
+.job-we-offer-heading {
+  font-size: 3rem;
+  margin-bottom: 60px;
+  color: var(--secondary-color);
+}
+
+.job-we-offer-subheading {
+  font-size: 0.9rem;
+  color: var(--tertiary-color);
+  margin-bottom: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.job-we-offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.job-we-offer-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: 1px solid #d8f3dc;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.job-we-offer-icon {
+  font-size: 32px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.job-we-offer-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+.job-we-offer-description {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--tertiary-color);
+}
+
+@media (max-width: 600px) {
+  .job-we-offer-section {
+    padding: 1.5rem 1rem;
+    text-align: left;
+  }
+
+  .job-we-offer-heading {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .job-we-offer-subheading {
+    font-size: 0.85rem;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .job-we-offer-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .job-we-offer-card {
+    padding: 20px;
+  }
+
+  .job-we-offer-icon {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .job-we-offer-title {
+    font-size: 1.1rem;
+  }
+
+  .job-we-offer-description {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .job-we-offer-section {
+    padding: 2rem 2rem;
+    text-align: left;
+  }
+
+  .job-we-offer-heading {
+    font-size: 2.5em;
+    text-align: left;
+  }
+
+  .job-we-offer-subheading {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .job-we-offer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .job-we-offer-card {
+    padding: 20px;
+  }
+
+  .job-we-offer-icon {
+    font-size: 30px;
+  }
+
+  .job-we-offer-title {
+    font-size: 1.15rem;
+  }
+
+  .job-we-offer-description {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .job-we-offer-section {
+    padding: 2.5rem 3rem;
+  }
+
+  .job-we-offer-heading {
+    font-size: 2.8em;
+  }
+
+  .job-we-offer-subheading {
+    font-size: 0.95rem;
+    margin-bottom: 50px;
+  }
+
+  .job-we-offer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .job-we-offer-card {
+    padding: 22px;
+  }
+
+  .job-we-offer-icon {
+    font-size: 30px;
+  }
+
+  .job-we-offer-title {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+  .job-we-offer-section {
+    padding: 3rem 5rem;
+  }
+
+  .job-we-offer-heading {
+    font-size: 3.5em;
+  }
+
+  .job-we-offer-subheading {
+    font-size: 1rem;
+    max-width: 800px;
+    margin-bottom: 60px;
+  }
+
+  .job-we-offer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+  }
+
+  .job-we-offer-card {
+    padding: 30px;
+  }
+
+  .job-we-offer-icon {
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+
+  .job-we-offer-title {
+    font-size: 1.3rem;
+  }
+
+  .job-we-offer-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .job-we-offer-section {
+    padding: 3.5rem 6rem;
+  }
+
+  .job-we-offer-heading {
+    font-size: 4em;
+  }
+
+  .job-we-offer-subheading {
+    font-size: 1.1rem;
+    max-width: 900px;
+    margin-bottom: 70px;
+  }
+
+  .job-we-offer-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
+
+  .job-we-offer-card {
+    padding: 35px;
+  }
+
+  .job-we-offer-icon {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .job-we-offer-title {
+    font-size: 1.4rem;
+  }
+
+  .job-we-offer-description {
+    font-size: 1rem;
+  }
+}
