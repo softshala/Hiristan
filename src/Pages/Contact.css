@@ -234,9 +234,7 @@
   }
 }
 
-/* Responsive Design */
 
-/* Mobile (max-width: 600px) */
 @media (max-width: 600px) {
   .contact-container {
     flex-direction: column;
