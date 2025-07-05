@@ -1,50 +1,38 @@
 import React from 'react';
 import './ServiceExpert.css';
-import user1 from '../../assets/images/Homepage/bn-4.webp'; // Replace with actual image paths
-import user2 from '../../assets/images/Homepage/bn-4.webp';
-import user3 from '../../assets/images/Homepage/bn-4.webp';
-import user4 from '../../assets/images/Homepage/bn-4.webp';
 
 const experts = [
   {
     id: 1,
-    name: 'Kr. Dhananjay Preet',
-    role: 'Sr. Web Designer.',
-    location: 'London',
+    position: 'ServiceNow ITSM Consultant',
+    initials: 'IT',
     experience: '7 Years Exp.',
-    description: 'Creative and experienced web designer with a knack for visual storytelling.',
-    skills: ['HTML', 'CSS', 'JavaScript', 'Figma'],
-    image: user1,
+    description: 'Expert in optimizing IT service management processes with deep ITIL knowledge.',
+    skills: ['ServiceNow ITSM', 'Incident Management', 'Service Catalog', 'ITIL Processes'],
   },
   {
     id: 2,
-    name: 'Clarence B. Mantooth',
-    role: 'Sr. Content Writer.',
-    location: 'Canada, USA',
-    experience: '3 Years Exp.',
-    description: 'Crafts compelling content that engages and converts across platforms.',
-    skills: ['SEO', 'Copywriting', 'Content Strategy'],
-    image: user2,
+    position: 'ServiceNow Developer',
+    initials: 'SD',
+    experience: '5 Years Exp.',
+    description: 'Skilled in building custom ServiceNow applications and integrations.',
+    skills: ['ServiceNow Platform', 'JavaScript', 'Workflow Studio', 'Integration Hub'],
   },
   {
     id: 3,
-    name: 'Geraldine E. Scott',
-    role: 'Shopify Developer.',
-    location: 'Denver, USA',
-    experience: '8 Years Exp.',
-    description: 'Built over 100+ high-converting Shopify stores.',
-    skills: ['Shopify', 'Liquid', 'JavaScript', 'React'],
-    image: user3,
+    position: 'ServiceNow HRSD Specialist',
+    initials: 'HR',
+    experience: '6 Years Exp.',
+    description: 'Specializes in streamlining HR service delivery with employee-focused solutions.',
+    skills: ['ServiceNow HRSD', 'Employee Service Center', 'Case Management', 'HR Automation'],
   },
   {
     id: 4,
-    name: 'Donald J. Merrick',
-    role: 'Laravel Developer.',
-    location: 'California, USA',
-    experience: '5 Years Exp.',
-    description: 'Expert in backend systems and scalable API development.',
-    skills: ['Laravel', 'PHP', 'MySQL', 'REST API'],
-    image: user4,
+    position: 'ServiceNow GRC Consultant',
+    initials: 'GC',
+    experience: '8 Years Exp.',
+    description: 'Experienced in implementing governance, risk, and compliance solutions.',
+    skills: ['ServiceNow GRC', 'Risk Management', 'Policy Compliance', 'Audit Management'],
   },
 ];
 
@@ -52,10 +40,9 @@ const ServiceExpert = () => {
   return (
     <div className="service-expert-container">
       <div className="service-expert-header">
-        <h2 className="service-expert-heading">Access Our Pool of Verified ServiceNow Experts <br />Ready to Join Your Team
-</h2>
+        <h2 className="service-expert-heading">Access Our Pool of Verified ServiceNow Experts <br />Ready to Join Your Team</h2>
         <p className="service-expert-subheading">
-          Meet pre-screened ServiceNow experts with comprehensive platform knowledge and verified experience, and relevant certifications.
+          Meet pre-screened ServiceNow experts with comprehensive platform knowledge, verified experience, and relevant certifications.
         </p>
       </div>
       <div className="service-expert-grid">
@@ -65,11 +52,9 @@ const ServiceExpert = () => {
               💼  {expert.experience}
             </div>
             <div className="service-expert-top-row">
-              <img src={expert.image} alt={expert.name} className="service-expert-img" />
+              <div className="service-expert-initials">{expert.initials}</div>
               <div className="service-expert-details">
-                <h3 className="service-expert-name">{expert.name}</h3>
-                <p className="service-expert-role">{expert.role}</p>
-                <p className="service-expert-location">📍 {expert.location}</p>
+                <h3 className="service-expert-position">{expert.position}</h3>
               </div>
             </div>
             <p className="service-expert-description">{expert.description}</p>

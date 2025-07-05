@@ -32,11 +32,11 @@
   padding: 2rem;
   background-color: #fefefe;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-  transition: ease-in;
+  transition: ease-in 0.2s;
 }
 
-.service-expert-card:hover{
-    border: 1px solid var(--primary-color);
+.service-expert-card:hover {
+  border: 1px solid var(--primary-color);
 }
 
 .service-expert-experience-badge {
@@ -61,11 +61,16 @@
   flex-wrap: wrap;
 }
 
-.service-expert-img {
-  width: 90px;
-  height: 90px;
+.service-expert-initials {
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  object-fit: cover;
+  background-color: #f0f0f0;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
 }
 
 .service-expert-details {
@@ -73,17 +78,11 @@
   min-width: 150px;
 }
 
-.service-expert-name {
+.service-expert-position {
   margin: 0 0 5px;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: var(--secondary-color);
-}
-
-.service-expert-role,
-.service-expert-location {
-  font-size: 0.85rem;
-  color: var(--tertiary-color);
-  margin: 0.2rem 0;
 }
 
 .service-expert-description {
@@ -108,6 +107,7 @@
   font-weight: 500;
 }
 
+/* Mobile devices (max-width: 600px) */
 @media (max-width: 600px) {
   .service-expert-container {
     padding: 0 1rem 2rem;
@@ -118,6 +118,9 @@
   .service-expert-heading {
     font-size: 2rem;
   }
+  .service-expert-heading br {
+    display: none;
+  }
   .service-expert-subheading {
     font-size: 0.9rem;
   }
@@ -127,19 +130,16 @@
   .service-expert-card {
     padding: 1.5rem;
   }
-  .service-expert-img {
-    width: 70px;
-    height: 70px;
+  .service-expert-initials {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+  .service-expert-position {
+    font-size: 1.2rem;
   }
   .service-expert-experience-badge {
     display: none;
-  }
-  .service-expert-name {
-    font-size: 1rem;
-  }
-  .service-expert-role,
-  .service-expert-location {
-    font-size: 0.75rem;
   }
   .service-expert-description {
     font-size: 0.8rem;
@@ -149,6 +149,7 @@
   }
 }
 
+/* Tablets (min-width: 768px and max-width: 991.98px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .service-expert-container {
     padding: 0 2rem 3rem;
@@ -162,12 +163,17 @@
   .service-expert-card {
     padding: 1.75rem;
   }
-  .service-expert-img {
-    width: 80px;
-    height: 80px;
+  .service-expert-initials {
+    width: 70px;
+    height: 70px;
+    font-size: 1.75rem;
+  }
+  .service-expert-position {
+    font-size: 1.3rem;
   }
 }
 
+/* Small desktops (min-width: 992px and max-width: 1199.98px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .service-expert-container {
     padding: 0 3.5rem 3.5rem;
@@ -181,8 +187,17 @@
   .service-expert-card {
     padding: 1.75rem;
   }
+  .service-expert-initials {
+    width: 75px;
+    height: 75px;
+    font-size: 1.8rem;
+  }
+  .service-expert-position {
+    font-size: 1.4rem;
+  }
 }
 
+/* Large desktops (min-width: 1600px and max-width: 1999px) */
 @media (min-width: 1600px) and (max-width: 1999px) {
   .service-expert-container {
     padding: 0 5rem 5rem;
@@ -199,12 +214,23 @@
   .service-expert-card {
     padding: 2.5rem;
   }
-  .service-expert-img {
-    width: 100px;
-    height: 100px;
+  .service-expert-initials {
+    width: 90px;
+    height: 90px;
+    font-size: 2.2rem;
+  }
+  .service-expert-position {
+    font-size: 1.6rem;
+  }
+  .service-expert-description {
+    font-size: 1rem;
+  }
+  .service-expert-skill {
+    font-size: 0.9rem;
   }
 }
 
+/* Extra large desktops (min-width: 2000px) */
 @media (min-width: 2000px) {
   .service-expert-container {
     padding: 0 6rem 6rem;
@@ -221,17 +247,18 @@
   .service-expert-card {
     padding: 3rem;
   }
-  .service-expert-img {
-    width: 120px;
-    height: 120px;
+  .service-expert-initials {
+    width: 100px;
+    height: 100px;
+    font-size: 2.4rem;
   }
-  .service-expert-name {
-    font-size: 1.5rem;
+  .service-expert-position {
+    font-size: 1.8rem;
   }
   .service-expert-description {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .service-expert-skill {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }

@@ -7,14 +7,11 @@ const Footer = () => {
     <footer className="footer">
       {/* Social Media Icons */}
       <div className="footer-social">
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="footer-social-icon">
+        <a href="https://www.instagram.com/hiristan_?igsh=bDRzbWRtdmdxNXVl" target="_blank" rel="noopener noreferrer" className="footer-social-icon">
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-social-icon">
+        <a href="https://www.linkedin.com/company/hiristan/" target="_blank" rel="noopener noreferrer" className="footer-social-icon">
           <i className="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="footer-social-icon">
-          <i className="fab fa-twitter"></i>
         </a>
       </div>
 

@@ -1,50 +1,38 @@
 import React from 'react';
 import './ServiceExpert.css';
-import user1 from '../../assets/images/Homepage/bn-4.webp'; // Replace with actual image paths
-import user2 from '../../assets/images/Homepage/bn-4.webp';
-import user3 from '../../assets/images/Homepage/bn-4.webp';
-import user4 from '../../assets/images/Homepage/bn-4.webp';
 
 const experts = [
   {
     id: 1,
-    name: 'Kr. Dhananjay Preet',
-    role: 'Sr. Web Designer.',
-    location: 'London',
+    position: 'Salesforce CPQ Specialist',
+    initials: 'CS',
     experience: '7 Years Exp.',
-    description: 'Creative and experienced web designer with a knack for visual storytelling.',
-    skills: ['HTML', 'CSS', 'JavaScript', 'Figma'],
-    image: user1,
+    description: 'Expert in configuring complex pricing models and streamlining quote-to-cash processes.',
+    skills: ['Salesforce CPQ', 'Pricing Configuration', 'Quote-to-Cash', 'Salesforce Administration'],
   },
   {
     id: 2,
-    name: 'Clarence B. Mantooth',
-    role: 'Sr. Content Writer.',
-    location: 'Canada, USA',
-    experience: '3 Years Exp.',
-    description: 'Crafts compelling content that engages and converts across platforms.',
-    skills: ['SEO', 'Copywriting', 'Content Strategy'],
-    image: user2,
+    position: 'Vlocity Developer',
+    initials: 'VD',
+    experience: '5 Years Exp.',
+    description: 'Skilled in building customized solutions with OmniScript and DataRaptor for seamless integrations.',
+    skills: ['Vlocity CPQ', 'OmniScript', 'DataRaptor', 'Salesforce Platform'],
   },
   {
     id: 3,
-    name: 'Geraldine E. Scott',
-    role: 'Shopify Developer.',
-    location: 'Denver, USA',
-    experience: '8 Years Exp.',
-    description: 'Built over 100+ high-converting Shopify stores.',
-    skills: ['Shopify', 'Liquid', 'JavaScript', 'React'],
-    image: user3,
+    position: 'Marketing Cloud Consultant',
+    initials: 'MC',
+    experience: '6 Years Exp.',
+    description: 'Specializes in creating automated, personalized marketing campaigns using Journey Builder.',
+    skills: ['Salesforce Marketing Cloud', 'Email Studio', 'Journey Builder', 'Automation Studio'],
   },
   {
     id: 4,
-    name: 'Donald J. Merrick',
-    role: 'Laravel Developer.',
-    location: 'California, USA',
-    experience: '5 Years Exp.',
-    description: 'Expert in backend systems and scalable API development.',
-    skills: ['Laravel', 'PHP', 'MySQL', 'REST API'],
-    image: user4,
+    position: 'Health Cloud Specialist',
+    initials: 'HC',
+    experience: '8 Years Exp.',
+    description: 'Experienced in implementing patient-centric solutions with HIPAA-compliant configurations.',
+    skills: ['Salesforce Health Cloud', 'Patient Management', 'Care Plan Configuration', 'HIPAA Compliance'],
   },
 ];
 
@@ -64,11 +52,9 @@ const ServiceExpert = () => {
               💼  {expert.experience}
             </div>
             <div className="service-expert-top-row">
-              <img src={expert.image} alt={expert.name} className="service-expert-img" />
+              <div className="service-expert-initials">{expert.initials}</div>
               <div className="service-expert-details">
-                <h3 className="service-expert-name">{expert.name}</h3>
-                <p className="service-expert-role">{expert.role}</p>
-                <p className="service-expert-location">📍 {expert.location}</p>
+                <h3 className="service-expert-position">{expert.position}</h3>
               </div>
             </div>
             <p className="service-expert-description">{expert.description}</p>

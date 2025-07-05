@@ -8,6 +8,8 @@ import TermsCondition from './Components/Policies/TermsCondition';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import About from './Pages/About';
+import Contact from './Pages/Contact'; 
+import JobPage from './Pages/JobPage';
 
 const App = () => {
   return (
@@ -33,7 +35,24 @@ const App = () => {
               </>
           
           } /> 
+           <Route path="/contact" element={
+          <>
+                <Navbar />
+                <Contact />
+                <Footer />
+              </>
+          
+          } /> 
+          <Route path="/jobs" element={
+          <>
+                <Navbar />
+                <JobPage />
+                <Footer />
+              </>
+          
+          } /> 
       </Routes>
+      
     </Router>
   );
 };

@@ -71,7 +71,7 @@ font-size: 0.8rem;
     font-size: 0.8rem;
   }
   .service-hero-section-image {
-    height: 300px;
+    height: auto;
   }
 }
 
