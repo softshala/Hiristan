@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import BrandImage from '../assets/images/Homepage/HIRISTAN.svg'; // Adjust path to your image
+import BrandImage from '../assets/images/Homepage/HIRISTAN.svg'; 
 
 const Footer = () => {
   return (
