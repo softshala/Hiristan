@@ -22,7 +22,7 @@ const Footer = () => {
           <a href="/hire-salesforce-professionals" className="footer-link">Salesforce</a>
           <a href="/hire-servicenow-professionals" className="footer-link">ServiceNow</a>
           <a href="/contact" className="footer-link">Contact</a>
-          <a href="/terms-and-conditions" className="footer-link">Terms and Conditions</a>
+          <a href="/terms-and-condition" className="footer-link">Terms and Conditions</a>
           <a href="/privacy-policy" className="footer-link">Privacy Policy</a>
         </nav>
       </div>
