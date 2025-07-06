@@ -53,7 +53,7 @@ const Navbar = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li className="navbar-item">
-            <Link to="/contact">Jobs</Link>
+            <Link to="/jobs">Apply for Jobs</Link>
           </li>
         </ul>
         <div className="navbar-action">

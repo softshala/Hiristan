@@ -32,6 +32,12 @@
   max-width: 400px;
 }
 
+.contact-description-highlight {
+  color: var(--primary-color);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
 .contact-email-text {
   color: var(--tertiary-color);
 }
@@ -234,7 +240,6 @@
   }
 }
 
-
 @media (max-width: 600px) {
   .contact-container {
     flex-direction: column;
@@ -246,8 +251,13 @@
     font-size: 2rem;
   }
 
-  .contact-description {
+  .contact-description,
+  .contact-description-highlight {
     max-width: 100%;
+  }
+
+  .contact-description-highlight {
+    font-size: 1.1rem;
   }
 
   .contact-row {
@@ -283,7 +293,6 @@
   }
 }
 
-/* Tablet (min-width: 768px and max-width: 991.98px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .contact-container {
     flex-direction: column;
@@ -297,6 +306,10 @@
 
   .contact-heading {
     font-size: 2rem;
+  }
+
+  .contact-description-highlight {
+    font-size: 1.15rem;
   }
 
   .contact-row {
@@ -321,7 +334,6 @@
   }
 }
 
-/* Desktop (min-width: 992px and max-width: 1199.98px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .contact-container {
     padding: 3.5rem 2.5rem;
@@ -330,6 +342,10 @@
 
   .contact-heading {
     font-size: 2.2rem;
+  }
+
+  .contact-description-highlight {
+    font-size: 1.15rem;
   }
 
   .contact-row {
@@ -348,7 +364,6 @@
   }
 }
 
-/* Large Desktop (min-width: 1600px and max-width: 1999px) */
 @media (min-width: 1600px) and (max-width: 1999px) {
   .contact-container {
     max-width: 1600px;
@@ -358,6 +373,10 @@
 
   .contact-heading {
     font-size: 2.8rem;
+  }
+
+  .contact-description-highlight {
+    font-size: 1.3rem;
   }
 
   .contact-field input,
@@ -377,7 +396,6 @@
   }
 }
 
-/* Extra Large Desktop (min-width: 2000px) */
 @media (min-width: 2000px) {
   .contact-container {
     max-width: 1800px;
@@ -387,6 +405,10 @@
 
   .contact-heading {
     font-size: 3rem;
+  }
+
+  .contact-description-highlight {
+    font-size: 1.4rem;
   }
 
   .contact-field input,

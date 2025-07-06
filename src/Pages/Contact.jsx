@@ -76,7 +76,12 @@ const Contact = () => {
       <div className="contact-left">
         <button className="contact-badge">Contact Us</button>
         <h1 className="contact-heading">Let's Get In Touch.</h1>
-        
+        <p className="contact-description contact-description-highlight">
+          Looking to Hire 5–6 Developers at Once?
+        </p>
+        <p className="contact-description">
+          If you're a company in need of a dedicated team of skilled developers, we’re here to help. <br /><br />Simply fill out the form with your job description and requirements, and one of our executives will get in touch with you shortly to understand your needs and guide you through the next steps. Let’s build something great together.
+        </p>
         <p className="contact-email-text">
           Or just reach out manually to <a href="mailto:jobs@hiristan.com" className="contact-email-link">jobs@hiristan.com</a>
         </p>
@@ -103,7 +108,7 @@ const Contact = () => {
                 value={formData.first_name}
                 onChange={handleChange}
                 className={errors.first_name ? 'error' : formData.first_name ? 'valid' : ''}
-                placeholder="Enter your full name..."
+                placeholder="Enter your first name..."
                 maxLength="40"
                 size="20"
               />
@@ -173,7 +178,6 @@ const Contact = () => {
               />
               {errors.phone && <span className="error-message">{errors.phone}</span>}
             </div>
-            {/* Removed lead_source field entirely as it's now hidden */}
           </div>
 
           <div className="contact-message">
@@ -183,7 +187,7 @@ const Contact = () => {
               name="description"
               value={formData.description}
               onChange={handleChange}
-              placeholder="Enter your main text here..."
+              placeholder="Enter your job description and requirements..."
               maxLength="300"
             />
             <div className="contact-char-limit">{formData.description.length}/300</div>
@@ -208,4 +212,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
