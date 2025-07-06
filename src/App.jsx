@@ -15,44 +15,39 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/*" element={<Homepage />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/hire-servicenow-professionals" element={<ServicePage1 />} /> 
         <Route path="/hire-salesforce-professionals" element={<ServicePage2 />} /> 
         <Route path="/about" element={<About />} /> 
         <Route path="/privacy-policy" element={
           <>
-                <Navbar />
-                <PrivacyPolicy />
-                <Footer/>
-              </>
-          
-          } /> 
+            <Navbar />
+            <PrivacyPolicy />
+            <Footer />
+          </>
+        } /> 
         <Route path="/terms-and-condition" element={
           <>
-                <Navbar />
-                <TermsCondition />
-                <Footer />
-              </>
-          
-          } /> 
-           <Route path="/contact" element={
+            <Navbar />
+            <TermsCondition />
+            <Footer />
+          </>
+        } /> 
+        <Route path="/contact" element={
           <>
-                <Navbar />
-                <Contact />
-                <Footer />
-              </>
-          
-          } /> 
-          <Route path="/jobs" element={
+            <Navbar />
+            <Contact />
+            <Footer />
+          </>
+        } /> 
+        <Route path="/jobs" element={
           <>
-                <Navbar />
-                <JobPage />
-                <Footer />
-              </>
-          
-          } /> 
+            
+            <JobPage />
+           
+          </>
+        } /> 
       </Routes>
-      
     </Router>
   );
 };
