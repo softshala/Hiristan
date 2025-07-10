@@ -42,7 +42,7 @@ import { useEffect } from 'react';
 const JobPage = () => {
   useEffect(() => {
     // Perform the redirect to the external URL
-    window.location.replace('https://qrfy.io/r/GNAfmGaeXx');
+    window.location.replace('https://docs.google.com/forms/d/e/1FAIpQLSfiX91Na6wbKRZGZcrALKz33ebofSllUK6r6957ezRb7SjSQA/viewform?usp=dialog');
   }, []);
 
   return (
