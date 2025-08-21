@@ -42,9 +42,9 @@ const App = () => {
         } /> 
         <Route path="/jobs" element={
           <>
-            
+            <Navbar />
             <JobPage />
-           
+            <Footer />
           </>
         } /> 
       </Routes>
