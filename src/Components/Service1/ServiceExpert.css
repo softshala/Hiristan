@@ -17,103 +17,34 @@
 .service-expert-subheading {
   font-size: 1rem;
   color: var(--tertiary-color);
+  margin-bottom: 2rem;
+  line-height: 1.4;
 }
 
-.service-expert-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.service-expert-card {
-  position: relative;
-  border: 1px solid #e6e6e6;
-  border-radius: 10px;
-  padding: 2rem;
-  background-color: #fefefe;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-  transition: ease-in 0.2s;
-}
-
-.service-expert-card:hover {
-  border: 1px solid var(--primary-color);
-}
-
-.service-expert-experience-badge {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background-color: #d3f1e4;
-  color: var(--primary-color);
-  font-weight: 700;
-  padding: 0.4rem 0.9rem;
-  border-radius: 50px;
-  font-size: 0.7rem;
-  font-weight: 500;
-  z-index: 1;
-  white-space: nowrap;
-}
-
-.service-expert-top-row {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  flex-wrap: wrap;
-}
-
-.service-expert-initials {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #f0f0f0;
-  color: var(--primary-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-}
-
-.service-expert-details {
-  flex: 1;
-  min-width: 150px;
-}
-
-.service-expert-position {
-  margin: 0 0 5px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--secondary-color);
-}
-
-.service-expert-description {
-  margin-top: 1rem;
-  font-size: 0.9rem;
-  color: var(--tertiary-color);
-}
-
-.service-expert-skills {
-  margin-top: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.service-expert-skill {
-  background-color: #d3f1e4;
-  color: var(--primary-color);
-  padding: 0.4rem 0.6rem;
+.service-expert-contact-button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
   border-radius: 5px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+
+.service-expert-contact-button:hover {
+  background-color: #005f73;
 }
 
 /* Mobile devices (max-width: 600px) */
 @media (max-width: 600px) {
   .service-expert-container {
-    padding: 0 1rem 2rem;
+    padding: 0 1rem 1rem;
   }
   .service-expert-header {
     text-align: left;
+    margin-bottom: 1rem;
   }
   .service-expert-heading {
     font-size: 2rem;
@@ -124,28 +55,9 @@
   .service-expert-subheading {
     font-size: 0.9rem;
   }
-  .service-expert-grid {
-    grid-template-columns: 1fr;
-  }
-  .service-expert-card {
-    padding: 1.5rem;
-  }
-  .service-expert-initials {
-    width: 60px;
-    height: 60px;
-    font-size: 1.5rem;
-  }
-  .service-expert-position {
-    font-size: 1.2rem;
-  }
-  .service-expert-experience-badge {
-    display: none;
-  }
-  .service-expert-description {
-    font-size: 0.8rem;
-  }
-  .service-expert-skill {
-    font-size: 0.7rem;
+  .service-expert-contact-button {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.2rem;
   }
 }
 
@@ -157,19 +69,8 @@
   .service-expert-heading {
     font-size: 2.5rem;
   }
-  .service-expert-grid {
-    grid-template-columns: 1fr;
-  }
-  .service-expert-card {
-    padding: 1.75rem;
-  }
-  .service-expert-initials {
-    width: 70px;
-    height: 70px;
-    font-size: 1.75rem;
-  }
-  .service-expert-position {
-    font-size: 1.3rem;
+  .service-expert-contact-button {
+    font-size: 0.95rem;
   }
 }
 
@@ -180,20 +81,6 @@
   }
   .service-expert-heading {
     font-size: 2.75rem;
-  }
-  .service-expert-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-  .service-expert-card {
-    padding: 1.75rem;
-  }
-  .service-expert-initials {
-    width: 75px;
-    height: 75px;
-    font-size: 1.8rem;
-  }
-  .service-expert-position {
-    font-size: 1.4rem;
   }
 }
 
@@ -208,25 +95,9 @@
   .service-expert-subheading {
     font-size: 1.2rem;
   }
-  .service-expert-grid {
-    gap: 1.5rem;
-  }
-  .service-expert-card {
-    padding: 2.5rem;
-  }
-  .service-expert-initials {
-    width: 90px;
-    height: 90px;
-    font-size: 2.2rem;
-  }
-  .service-expert-position {
-    font-size: 1.6rem;
-  }
-  .service-expert-description {
-    font-size: 1rem;
-  }
-  .service-expert-skill {
-    font-size: 0.9rem;
+  .service-expert-contact-button {
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
   }
 }
 
@@ -241,24 +112,8 @@
   .service-expert-subheading {
     font-size: 1.3rem;
   }
-  .service-expert-grid {
-    gap: 2rem;
-  }
-  .service-expert-card {
-    padding: 3rem;
-  }
-  .service-expert-initials {
-    width: 100px;
-    height: 100px;
-    font-size: 2.4rem;
-  }
-  .service-expert-position {
-    font-size: 1.8rem;
-  }
-  .service-expert-description {
-    font-size: 1.1rem;
-  }
-  .service-expert-skill {
-    font-size: 1rem;
+  .service-expert-contact-button {
+    font-size: 1.2rem;
+    padding: 1.2rem 2.5rem;
   }
 }
